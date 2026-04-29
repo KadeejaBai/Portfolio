@@ -36,14 +36,14 @@ export default function RootLayout({
 
         {/* Navigation */}
         <nav className="fixed top-0 left-0 right-0 z-50 bg-black/80 backdrop-blur-md border-b border-gray-800">
-          <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+          <div className="max-w-6xl mx-auto px-4 py-4 sm:py-0 sm:h-16 flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-0">
             <Link
               href="/"
               className="text-lg font-bold tracking-widest text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 hover:to-white transition-all duration-300"
             >
               KADEEJA BAI
             </Link>
-            <div className="flex gap-8 text-xs font-bold tracking-widest uppercase text-gray-500 hidden sm:flex">
+            <div className="flex gap-4 sm:gap-8 text-[10px] sm:text-xs font-bold tracking-widest uppercase text-gray-500 flex-wrap justify-center">
               <Link href="/" className="hover:text-white hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.8)] transition-all">ABOUT</Link>
               <Link href="/coding" className="hover:text-white hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.8)] transition-all">CODING</Link>
               <Link href="/travel" className="hover:text-white hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.8)] transition-all">TRAVEL</Link>
