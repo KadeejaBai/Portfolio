@@ -10,7 +10,7 @@ export default function ContactPage() {
         <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-6 mt-8">
           <a
             href="mailto:kadeejabai@gmail.com"
-            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
+            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 rounded-full hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
           >
             <MailIcon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
             <span className="text-gray-300 group-hover:text-white transition-colors font-mono tracking-wider">kadeejabai@gmail.com</span>
@@ -20,7 +20,7 @@ export default function ContactPage() {
             href="https://www.linkedin.com/in/kadeeja-bai-418321128"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
+            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 rounded-full hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
           >
             <LinkedInIcon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
             <span className="text-gray-300 group-hover:text-white transition-colors font-mono tracking-wider">LinkedIn Profile</span>
@@ -30,7 +30,7 @@ export default function ContactPage() {
             href="https://www.youtube.com/@kadeejabai"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
+            className="group flex items-center gap-3 px-6 py-4 bg-gray-950 border border-gray-800 rounded-full hover:border-gray-600 hover:shadow-[0_0_20px_rgba(255,255,255,0.1)] transition-all duration-300"
           >
             <YoutubeIcon className="w-5 h-5 text-gray-400 group-hover:text-white transition-colors" />
             <span className="text-gray-300 group-hover:text-white transition-colors font-mono tracking-wider">YouTube Channel</span>

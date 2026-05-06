@@ -1,4 +1,4 @@
-# Contributing to Gitfolio
+# Contributing to Portfolio
 
 First off, thanks for taking the time to contribute! 🎉
 

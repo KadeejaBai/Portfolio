@@ -15,7 +15,7 @@ export default function Home() {
               src={`${basePath}/me.png`}
               alt="Profile"
               fill
-              className="object-contain grayscale drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+              className="object-contain rounded-xl drop-shadow-[0_0_20px_rgba(255,255,255,0.3)]"
             />
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
             <p>
               While my days are built on the logic of architecture and high-scale systems, my life is fueled by art and exploration. I’m a firm believer that the best engineering comes from a creative soul.
             </p>
-            <strong className="font-bold block text-xl tracking-widest pt-2 text-transparent bg-clip-text bg-gradient-to-r from-gray-500 via-white to-gray-500 animate-pulse drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">DREAM BIG.</strong>
+            <strong className="font-bold block text-xl tracking-widest pt-2 text-transparent bg-clip-text bg-gradient-to-r from-gray-500 via-white to-gray-500 animate-pulse drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">DREAM BIG!</strong>
           </div>
         </div>
       </section>

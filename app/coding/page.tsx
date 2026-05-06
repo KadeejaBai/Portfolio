@@ -1,9 +1,13 @@
 "use client";
 
+import Image from "next/image";
+
+const basePath = process.env.NODE_ENV === "production" ? "" : "";
+
 export default function CodingPage() {
   return (
     <section className="py-10 grid md:grid-cols-12 gap-8 lg:gap-12 items-center min-h-[60vh]">
-      <div className="md:col-span-12 space-y-8 text-gray-300 leading-relaxed font-light flex flex-col items-start text-left">
+      <div className="md:col-span-7 space-y-8 text-gray-300 leading-relaxed font-light flex flex-col items-start text-left order-2 md:order-1">
         <h2 className="text-3xl font-bold tracking-widest text-white drop-shadow-[0_0_8px_rgba(255,255,255,0.6)]">
           CODING
         </h2>
@@ -39,6 +43,16 @@ export default function CodingPage() {
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="md:col-span-5 flex justify-center order-1 md:order-2 md:-translate-y-12">
+        <div className="relative w-full max-w-[450px] aspect-square transition-all duration-500 hover:scale-105 hover:rotate-2 cursor-pointer">
+          <Image
+            src={`${basePath}/coding.png`}
+            alt="Coding"
+            fill
+            className="object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]"
+          />
         </div>
       </div>
     </section>

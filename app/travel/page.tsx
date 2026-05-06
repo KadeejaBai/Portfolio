@@ -8,12 +8,12 @@ export default function TravelPage() {
   return (
     <section className="py-10 grid md:grid-cols-12 gap-8 lg:gap-12 items-center min-h-[60vh]">
       <div className="md:col-span-5 flex justify-center order-2 md:order-1">
-        <div className="relative w-full max-w-[450px] aspect-[4/3] transition-all duration-500 hover:scale-105 hover:-rotate-2 cursor-pointer">
+        <div className="relative w-full max-w-[450px] aspect-square transition-all duration-500 hover:scale-105 hover:-rotate-2 cursor-pointer">
           <Image
-            src={`${basePath}/travel.jpg`}
+            src={`${basePath}/travel.png`}
             alt="Travel"
             fill
-            className="object-cover rounded-xl drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]"
+            className="object-contain rounded-xl drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]"
           />
         </div>
       </div>
